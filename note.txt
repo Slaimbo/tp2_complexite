@@ -1,0 +1,22 @@
+exo1_c
+	iii) phi est satisfaisable, par au moi deux valuations : 
+		b = 0, s = 0 ,t = 0, r = 0 (formule de horn)
+		b = 0, s = 1 0 ,t = 0, r = 0
+
+
+d)
+
+	Algorithme Check_tautologie
+	ENTREE
+		phi une formule propositionelle.
+	DEBUT
+
+	pour chaque combinaison possible de (n), n des variables booléennes
+		if phi(n) == Faux alors retouner Faux
+	fin pour
+	retourner Vrai
+
+	FIN
+
+e)
+	
